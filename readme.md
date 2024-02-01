@@ -20,7 +20,7 @@ These are the only functional requirements for your implementation:
 - Expires is any valid date
 
 ### Submit
-- You cannot submit until input fields
+- You cannot submit until input fields are validated
 - When submitting then console log the input values
 
 ## Commits
