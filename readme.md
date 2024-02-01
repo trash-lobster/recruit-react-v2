@@ -45,4 +45,4 @@ You can use any tools, plugins and technologies as required for you to complete 
 -	CSS
 
 # Submitting Assignment
-Feel free to create a public GitHub repo or private GitHub repo where you invite LukeAgius. He can give access to the right people.
+Feel free to create a public GitHub repo or private GitHub repo where it's accessible to the assessor
