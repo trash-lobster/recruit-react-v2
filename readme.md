@@ -5,7 +5,7 @@ We suggest to use create-react-app typescript for your setup.
 
 ## LO-FI
 Remember these are LO-FI and should only be treated as such.
-![lofi](https://raw.githubusercontent.com/runekr/recruit-react/master/lofi.png)
+![lofi](https://raw.githubusercontent.com/EdenCoNz/recruit-react/master/lofi.png)
 
 ## Spec
 These are the only functional requirements for your implementation:
