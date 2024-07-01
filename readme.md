@@ -14,15 +14,6 @@ These are the only functional requirements for your implementation:
 - Click on burger icon shows menu
 - Click on back shows register card form 
 
-### Inputs
-- Credit card field is any number
-- CVC is any number
-- Expires is any valid date
-
-### Submit
-- You cannot submit until input fields are validated
-- When submitting then console log the input values
-
 ## Commits
 Please commit frequently to communicate your thoughts while working on this assignment.
 
@@ -34,7 +25,7 @@ Please commit frequently to communicate your thoughts while working on this assi
 - Accessibility
 
 ## Duration
-Use roughly 3 hours on this assignment. You are only expected to do work on this assignment that matches the skill level of the role you are applying for, but you are welcome to do as much as you like. You are not necessarily expected to do everything in this assignment because of the short time duration of the assignment.
+Use roughly around an hour on this assignment. You are only expected to do work on this assignment that matches the skill level of the role you are applying for, but you are welcome to do as much as you like. You are not necessarily expected to do everything in this assignment because of the short time duration of the assignment.
 
 
 # Tools & Tech
@@ -42,7 +33,7 @@ You can use any tools, plugins and technologies as required for you to complete 
 
 -	React
 -	Typescript
--	CSS
+-	SCSS
 
 # Submitting Assignment
 Feel free to create a public GitHub repo or private GitHub repo where it's accessible to the assessor
