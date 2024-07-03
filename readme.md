@@ -29,7 +29,7 @@ Use roughly around an hour on this assignment. Ensure you complete the basic req
 
 
 # Tools & Tech
-You can use any tools, plugins and technologies as required for you to complete this assignment on top of what is provided. We expect that you in this assignment demonstrate competencies with the following technologies:
+You can use any tools, plugins and technologies as required for you to complete this assignment on top of what is provided but we expect that you create the UI components without the use of existing component libraries
 
 -	React
 -	Typescript
