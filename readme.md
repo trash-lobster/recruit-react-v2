@@ -1,7 +1,7 @@
 # Assignment
 Create a one page application following the LO-FIs given in this assignment.
 
-We suggest to use create-react-app typescript for your setup.
+We have provided the base code to get you started.
 
 ## LO-FI
 Remember these are LO-FI and should only be treated as such.
@@ -29,7 +29,7 @@ Use roughly around an hour on this assignment. Ensure you complete the basic req
 
 
 # Tools & Tech
-You can use any tools, plugins and technologies as required for you to complete this assignment. We expect that you in this assignment demonstrate competencies with the following technologies:
+You can use any tools, plugins and technologies as required for you to complete this assignment on top of what is provided but we expect that you create the UI components without the use of existing component libraries
 
 -	React
 -	Typescript
