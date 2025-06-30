@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavPanel as InnerNavPanel } from './navbar';
+import { NavPanel as InnerNavPanel } from './nav-panel';
 
 export function installNavPanel( 
     isNavMenuActive: boolean, 
