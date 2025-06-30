@@ -32,13 +32,13 @@ export const App = () => {
         <div className={styles.content}>
           {
             isNavMenuActive ? 
-              <div>Menu content</div> : 
-              <div>
-                <div>
+              <p>Menu content</p> : 
+              <>
+                <p>
                   Welcome {user.firstName}
-                </div>
+                </p>
                 <CardForm/>
-              </div>
+              </>
           }
         </div>
       </div>

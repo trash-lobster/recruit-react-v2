@@ -39,4 +39,42 @@ body {
 
 .content {
   padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: $spacing-md;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-md;
+}
+
+.creditCardNumber {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form > fieldset {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form > fieldset > input {
+  width: 35%;
+}
+
+.form > button {
+  width: 100%;
 }
