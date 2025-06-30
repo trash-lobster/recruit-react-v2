@@ -1,6 +1,17 @@
-import React, { FC } from "react";
+import React, { useState } from "react";
 import * as styles from "./app.module.scss";
+import { installNavPanel } from "./features/nav-panel/install";
 
 export const App = () => {
-  return <h1 className={styles.demo}>Welcome to your technical test!</h1>;
+  const [ isNavMenuActive, setIsNavMenuActive ] = useState(false);
+  const { NavPanel } = installNavPanel(isNavMenuActive, setIsNavMenuActive);
+  
+  return (
+    <>
+      <NavPanel/>
+      <body>
+        Hi there
+      </body>
+    </>
+  );
 };
