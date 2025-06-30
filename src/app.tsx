@@ -26,20 +26,22 @@ export const App = () => {
   const { CardForm } = installCardForm();
   
   return (
-    <>
-      <NavPanel/>
-      <body>
-        {
-          isNavMenuActive ? 
-            <div>Menu content</div> : 
-            <div>
+    <div>
+      <div className={styles.appPage}>
+        <NavPanel/>
+        <div className={styles.content}>
+          {
+            isNavMenuActive ? 
+              <div>Menu content</div> : 
               <div>
-                Welcome {user.firstName}
+                <div>
+                  Welcome {user.firstName}
+                </div>
+                <CardForm/>
               </div>
-              <CardForm/>
-            </div>
-        }
-      </body>
-    </>
+          }
+        </div>
+      </div>
+    </div>
   );
 };

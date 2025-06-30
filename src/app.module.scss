@@ -1,4 +1,42 @@
+$spacing-md: 20px;
+$br-lg: 15px;
+$app-background-color: rgb(224, 224, 224);
+
 .demo {
   font-family: "Roboto";
   color: orange;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.appPage {  
+  margin: $spacing-md auto;
+  width: 50%;
+  height: 75vh;
+  border: 2px solid black;
+}
+
+.navPanel {
+  padding: $spacing-md;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.navPanelIcon {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.navPanelIcon:hover {
+  cursor: pointer;
+}
+
+.content {
+  padding: $spacing-md;
 }
